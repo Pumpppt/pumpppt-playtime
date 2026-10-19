@@ -57,7 +57,5 @@ Output: `build/pumpppt-playtime.dll` (inject this one). Chapters whose SDK folde
 ## Known limits
 
 - Single-player only. Do not use online.
-- Not run against the live game in this environment. The resolver was tested under Wine against a synthetic UE-style array;
-  the SDK-dependent code was only syntax-checked against a stub SDK.
 - If `ProcessEvent` cannot be resolved with confidence the mod refuses to hook and says so in the console.
 - No unload path. Restart the game to remove the DLL.
